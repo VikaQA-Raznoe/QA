@@ -1,5 +1,5 @@
-# Created on 2018-05-07T13:13:41.711
-org.apache.maven.surefire.testset.TestSetFailedException: Suite file F:\IdeaProjects\OTUS\MyHomeWork\forGitHub\TempTemp\AnotherExampleAutoTestQA\{$project.basedir}\src\test\resources\{$suite}.xml is not a valid file
+# Created on 2018-05-08T17:04:28.116
+org.apache.maven.surefire.testset.TestSetFailedException: Suite file D:\Intellij\QA\AnotherExampleAutoTestQA\src\test\resources\regression.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
