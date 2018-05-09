@@ -1,6 +1,7 @@
 package ru.lesson4;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -10,6 +11,8 @@ import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class FirsTest extends BaseTest{
+
+    WebDriver driver = BaseTest.getDriver();
 
     //Тест может принадлежать к нескольким группам
     //Для каждой группы создается свой suite(testng.xml)
@@ -51,6 +54,24 @@ public class FirsTest extends BaseTest{
         webDriverWait.until(ExpectedConditions.textToBePresentInElement(textAreaAjax,expectedText));
         assertEquals(textAreaAjax.getText(),expectedText);
         assertTrue(textAreaAjax.isDisplayed());
+    }
+
+    //Слово в скобках говорит, к какой группе принадлежит тест
+    //@Test(groups = "regression")
+    @Test(groups = {"functest"})
+    //@Test
+    public void test3(){
+        driver.get("http://book.theautomatedtester.co.uk/chapter1");
+        System.out.println("Working test3()");
+        //---Chapter 2---
+        WebElement homePage = driver.findElement(By.partialLinkText("Home Page"));
+        homePage.click();
+        WebElement chapter2 = driver.findElement(By.partialLinkText("Chapter2"));
+        chapter2.click();
+
+        WebElement syblingButton = driver.findElement(By.xpath("//*[@id='but1']/following-sibling::input"));
+        //---Chapter 2---
+
     }
 
     @Test(groups = {"checkintest"})
