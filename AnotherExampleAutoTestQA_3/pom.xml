@@ -67,4 +67,19 @@
     </plugins>
   </build>
 
+  <profiles>
+    <profile>
+      <id>win</id>
+      <activation>
+        <os>
+          <family>Windows</family>
+        </os>
+      </activation>
+      <properties>
+        <webdriver.chrome.driver>/Library/Webdriver/chrome/chromedriver</webdriver.chrome.driver>
+        <webdriver.gecko.driver>/Library/Webdriver/gecko/geckodriver</webdriver.gecko.driver>
+      </properties>
+    </profile>
+  </profiles>
+
 </project>
