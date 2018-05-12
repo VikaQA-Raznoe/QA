@@ -17,8 +17,7 @@ public class BaseTest {
     public static WebDriver driver;
     public static WebDriverWait webDriverWait;
     private static final String WEBDRIVER_SETTINGS_ADDRESS = "properties/settings.properties";
-    private static final String WEB_DRIVER = PropertyReader.getPropertyFromFile(WEBDRIVER_SETTINGS_ADDRESS,
-            "webDriver");
+    //private static final String WEB_DRIVER = PropertyReader.getPropertyFromFile(WEBDRIVER_SETTINGS_ADDRESS,"webDriver");
     private static final String TIMEOUT = PropertyReader.getPropertyFromFile(WEBDRIVER_SETTINGS_ADDRESS,
             "timeout");
 
@@ -37,7 +36,9 @@ public class BaseTest {
     //String value - имя браузера
     public static WebDriver getDriver() {
         if (driver == null) {
-            String value = WEB_DRIVER;
+            //String value = WEB_DRIVER;
+            String value = System.getProperty("browser");
+            System.out.println(value);
             if (value == null) value = "firefox";
             switch (value) {
                 case "chrome":

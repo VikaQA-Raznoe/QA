@@ -59,8 +59,8 @@
           <systemPropertyVariables>
             <suite>${suite}</suite>
             <browser>${browser}</browser>
-            <webdriver.gecko.driver>/Library/Webdriver/gecko/geckodriver</webdriver.gecko.driver>
-            <webdriver.chrome.driver>/Library/Webdriver/chrome/chromedriver</webdriver.chrome.driver>
+            <webdriver.gecko.driver>/Library/WebDriver/gecko/geckodriver</webdriver.gecko.driver>
+            <webdriver.chrome.driver>/Library/WebDriver/chrome/chromedriver</webdriver.chrome.driver>
           </systemPropertyVariables>
         </configuration>
       </plugin>
@@ -76,8 +76,8 @@
         </os>
       </activation>
       <properties>
-        <webdriver.chrome.driver>/Library/Webdriver/chrome/chromedriver</webdriver.chrome.driver>
-        <webdriver.gecko.driver>/Library/Webdriver/gecko/geckodriver</webdriver.gecko.driver>
+        <webdriver.chrome.driver>/Library/WebDriver/chrome/chromedriver</webdriver.chrome.driver>
+        <webdriver.gecko.driver>/Library/WebDriver/gecko/geckodriver</webdriver.gecko.driver>
       </properties>
     </profile>
   </profiles>
