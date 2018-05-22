@@ -27,20 +27,30 @@ public class GoogleSteps {
         driver.get("https://google.com");
     }
 
-    @When("^I search for \"(.*)\"$")
-    public void i_search_for(String search){
-        //driver.findElement(By.name("q")).sendKeys(search);
+    //@When("^I search for \"(.*)\"$")
+    @When("^I search for (.*)$")
+    public void i_search_for(String query){
+        //driver.findElement(By.name("q")).sendKeys(query);
         WebElement searchInput = driver.findElement(By.name("q"));
-        searchInput.sendKeys(search);
+        searchInput.sendKeys(query);
         //Нажимаем кнопку "Enter"
-        searchInput.submit();
+        //searchInput.submit();
     }
 
-    @Then("The page title contains \"(.*?)\"")
-    public void the_page_title_contains(String expected_word){
+    @When("^I click button_enter$")
+    public void i_click_button(){
+        //Нажимаем кнопку "Enter"
+        //searchInput.submit();
+        WebElement searchGoogleButton = driver.findElement(By.cssSelector("#tsf > div.tsf-p > div.jsb > center > input[type='submit']:nth-child(1)"));
+        searchGoogleButton.click();
+    }
+
+    //@Then("The page title contains \"(.*)\"")
+    @Then("The page title contains (.*?)")
+    public void the_page_title_contains(String word){
         //ВАРИАНТ 1:
-        //Проверяем вхождение слова expected_word в тег title страницы
-        Assert.assertTrue(driver.getTitle().contains(expected_word));
+        //Проверяем вхождение слова word в тег title страницы
+        Assert.assertTrue(driver.getTitle().contains(word));
 
         //ВАРИАНТ 2:
         //Ждем пока загрузится страница с результатами
@@ -53,13 +63,13 @@ public class GoogleSteps {
         {
             //ВАРИАНТ 2-1:
             //System.out.println(webElement.getAttribute("href"));
-            //Проверяем есть ли в ссылкке вхождение слова expected_word
-            //System.out.println(webElement.getAttribute("href").toUpperCase().contains(expected_word.toUpperCase()));
+            //Проверяем есть ли в ссылкке вхождение слова word
+            //System.out.println(webElement.getAttribute("href").toUpperCase().contains(word.toUpperCase()));
 
             //ВАРИАНТ 2-2:
             //System.out.println(webElement.getText());
-            //Проверяем входит ли в текст ссылки слово expected_word
-            //System.out.println(webElement.getText().toUpperCase().contains(expected_word.toUpperCase()));
+            //Проверяем входит ли в текст ссылки слово word
+            //System.out.println(webElement.getText().toUpperCase().contains(word.toUpperCase()));
         }
 
         //Нажимаем на третью ссылку
