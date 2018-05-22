@@ -7,6 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -39,10 +40,31 @@ public class GoogleSteps {
 
     @When("^I click button_enter$")
     public void i_click_button(){
+        //ВАРИАНТ 1:
         //Нажимаем кнопку "Enter"
         //searchInput.submit();
-        WebElement searchGoogleButton = driver.findElement(By.cssSelector("#tsf > div.tsf-p > div.jsb > center > input[type='submit']:nth-child(1)"));
-        searchGoogleButton.click();
+
+        //ВАРИАНТ 2:
+        //Работает - от Ольги
+        //WebElement searchGoogleButton = driver.findElement(By.cssSelector("[class='lsb']"));
+        //searchGoogleButton.click();
+
+        //ВАРИАНТ 3:
+        //Кликаем по невидимому элменту:элемент кнопка скрыт выпадающим списком
+        WebElement but = driver.findElement(By.cssSelector("#tsf > div.tsf-p > div.jsb > center > input[type=\"submit\"]:nth-child(1)"));
+        clickOnInvisibleElement(but);
+
+    }
+
+    public void clickOnInvisibleElement(WebElement element) {
+
+        String script = "var object = arguments[0];"
+                + "var theEvent = document.createEvent(\"MouseEvent\");"
+                + "theEvent.initMouseEvent(\"click\", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);"
+                + "object.dispatchEvent(theEvent);"
+                ;
+
+        ((JavascriptExecutor)driver).executeScript(script, element);
     }
 
     //@Then("The page title contains \"(.*)\"")
