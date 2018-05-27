@@ -1,11 +1,12 @@
 package ru.lesson;
 
 import com.epam.jdi.uitests.web.selenium.elements.common.Button;
-import com.epam.jdi.uitests.web.selenium.elements.complex.DropList;
 import com.epam.jdi.uitests.web.selenium.elements.composite.WebSite;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.JSite;
-import org.openqa.selenium.WebElement;
+import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.Css;
 import org.openqa.selenium.support.FindBy;
+import ru.lesson.pages.ResultOfSelectionOfItemsPage;
+import ru.yandex.qatools.allure.annotations.Step;
 
 @JSite(value = "http://blazedemo.com/")
 public class JDIExampleSite extends WebSite {
@@ -18,11 +19,12 @@ public class JDIExampleSite extends WebSite {
     //@FindBy(name = "toPort")
     //public static WebElement toPort;
 
-    @FindBy(css = "input")
+    /*@Css("input")
     public static Button findFlightsButton;
 
+    @Step
     public static void clickButton(){
         findFlightsButton.click();
-    }
+    }*/
 
 }
