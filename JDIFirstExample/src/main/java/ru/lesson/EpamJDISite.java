@@ -11,21 +11,10 @@ import ru.lesson.pages.ResultOfSelectionOfItemsPage;
 import ru.lesson.pages.WelcomePage;
 import ru.yandex.qatools.allure.annotations.Step;
 
-@JSite(value = "http://blazedemo.com/")
+@JSite(value = "http://blazedemo.com")
 public class EpamJDISite extends WebSite {
-
-    //@JPage(url = "/")
+    @JPage
     public static WelcomePage welcomePage;
 
-    //@JPage(url = "/reserve.php")
-    //public static ResultOfSelectionOfItemsPage resultOfSelectionOfItemsPage;
-
-    @Css("input")
-    public static Button findFlightsButton;
-    @Step
-    public static void chooseItemClickButton(){
-        findFlightsButton.click();
-        //resultOfSelectionOfItemsPage.open();
-    }
 
 }
