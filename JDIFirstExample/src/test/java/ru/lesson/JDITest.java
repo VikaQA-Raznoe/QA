@@ -20,6 +20,7 @@ public class JDITest extends  BaseTest{
 
         //---РАБОТАЕТ--- var2
         open();
+        //welcomePage.open();
         welcomePage.selectCitiesAndSubmitForm();
         //---РАБОТАЕТ--- var2
     }
