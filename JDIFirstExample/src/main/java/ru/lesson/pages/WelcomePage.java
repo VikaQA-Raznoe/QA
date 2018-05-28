@@ -6,7 +6,7 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.JPage;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.Css;
 import ru.yandex.qatools.allure.annotations.Step;
 
-@JPage(url = "http://blazedemo.com/")
+@JPage(url = "/")
 public class WelcomePage extends WebPage {
 
     @Css("input")

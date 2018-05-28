@@ -14,18 +14,18 @@ import ru.yandex.qatools.allure.annotations.Step;
 @JSite(value = "http://blazedemo.com/")
 public class EpamJDISite extends WebSite {
 
-    @JPage(url = "http://blazedemo.com/")
+    //@JPage(url = "/")
     public static WelcomePage welcomePage;
 
-    @JPage(url = "http://blazedemo.com/reserve.php")
-    public static ResultOfSelectionOfItemsPage resultOfSelectionOfItemsPage;
+    //@JPage(url = "/reserve.php")
+    //public static ResultOfSelectionOfItemsPage resultOfSelectionOfItemsPage;
 
     @Css("input")
     public static Button findFlightsButton;
     @Step
     public static void chooseItemClickButton(){
         findFlightsButton.click();
-        resultOfSelectionOfItemsPage.open();
+        //resultOfSelectionOfItemsPage.open();
     }
 
 }
