@@ -1,6 +1,11 @@
-2018-05-28 22:30:32 INFO: Init test run
-2018-05-28 22:30:32 INFO: Open page 'EpamJDISite' for EpamJDISite(http://blazedemo.com)
-2018-05-28 22:31:30 INFO: Init test run
-2018-05-28 22:31:30 INFO: Open page 'Welcome Page' for Welcome Page(http://blazedemo.com/)
-2018-05-28 23:09:50 INFO: Init test run
-2018-05-28 23:09:51 INFO: Open page 'EpamJDISite' for EpamJDISite(http://blazedemo.com)
+2018-05-29 18:12:46 INFO: Init test run
+2018-05-29 18:12:47 INFO: Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2018-05-29 18:12:47 INFO: Latest version of chromedriver is 2.38
+2018-05-29 18:12:47 INFO: Using binary driver previously downloaded
+2018-05-29 18:12:47 INFO: Exporting webdriver.chrome.driver as C:\Users\Vika I\.m2\repository\webdriver\chromedriver\win32\2.38\chromedriver.exe
+2018-05-29 18:12:47 INFO: Open page 'EpamJDISite' for EpamJDISite(http://blazedemo.com)
+2018-05-29 18:12:51 INFO: Select 'Boston' for Selector 'Departure City' (WelcomePage.departureCity; ; cssSelector='[name='fromPort']')
+2018-05-29 18:13:01 INFO: Select 'Rome' for Selector 'Destination City' (WelcomePage.destinationCity; ; cssSelector='[name='toPort']')
+2018-05-29 18:13:17 INFO: Click on Element for Button 'Find Flights Button' (WelcomePage.findFlightsButton; ; cssSelector='input')
+2018-05-29 18:13:22 INFO: Test run finished. 
+Total test run time: 00:00:36.2

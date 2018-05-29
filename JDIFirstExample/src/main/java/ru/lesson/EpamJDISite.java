@@ -15,6 +15,4 @@ import ru.yandex.qatools.allure.annotations.Step;
 public class EpamJDISite extends WebSite {
     @JPage
     public static WelcomePage welcomePage;
-
-
 }

@@ -11,17 +11,11 @@ public class JDITest extends  BaseTest{
 
     @Test
     public void welcomePageTest(){
-        //---РАБОТАЕТ--- var1
-        ///WebDriverManager.chromedriver().setup();
-        //welcomePage.open();
-        ///open();
-        ///welcomePage.selectCitiesAndSubmitForm();
-        //---РАБОТАЕТ---
-
-        //---РАБОТАЕТ--- var2
+        //---РАБОТАЕТ--- var1 ---bonigarcia
+        //WebDriverManager.firefoxdriver().setup();
+        WebDriverManager.chromedriver().setup();
         open();
-        //welcomePage.open();
         welcomePage.selectCitiesAndSubmitForm();
-        //---РАБОТАЕТ--- var2
+        //---РАБОТАЕТ---
     }
 }
