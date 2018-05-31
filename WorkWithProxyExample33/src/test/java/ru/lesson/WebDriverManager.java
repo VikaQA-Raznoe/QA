@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import ru.lesson.utills.PropertyReader;
 
@@ -20,7 +19,7 @@ public class WebDriverManager extends TestNGBase {
     public static WebDriverWait webDriverWait;
     public static int timeout = 10;
 
-    private static final String WEBDRIVER_SETTINGS_ADDRESS = "properties/settings.properties";
+    private static final String WEBDRIVER_SETTINGS_ADDRESS = "settings.properties";
     private static final String PROXY_ADDRESS = PropertyReader.getPropertyFromFile(WEBDRIVER_SETTINGS_ADDRESS,
             "proxy");
 
