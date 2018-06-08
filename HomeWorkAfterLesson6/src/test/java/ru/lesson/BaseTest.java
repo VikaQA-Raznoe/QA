@@ -37,8 +37,8 @@ public class BaseTest {
         driver.get("http://blazedemo.com/");
     }
 
-    @AfterClass
+/*    @AfterClass
     public void tearDown(){
         driver.quit();
-    }
+    }*/
 }

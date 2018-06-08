@@ -30,6 +30,13 @@ public class PurchasePage extends AbstractPage {
     @FindBy(css = "table.table tbody tr:nth-of-type(6) td:nth-of-type(2)")
     private WebElement authCodeLabel;
 
+    @FindBy(css = "table.table tbody tr:nth-of-type(7) td:nth-of-type(2)")
+    private WebElement currentDate;
+
+    public WebElement getCurrentDate() {
+        return currentDate;
+    }
+
     public WebElement getAuthCode() {
         return authCodeLabel;
     }
@@ -58,7 +65,6 @@ public class PurchasePage extends AbstractPage {
         return resultTable;
     }
 
-    //fixme:Возможно не надо
     public void showResultTable(){
         for (WebElement elementFromTableResult:getResultTable()) {
             System.out.println("Таблица с результатами: " + elementFromTableResult.getText());

@@ -1,10 +1,17 @@
 package ru.lesson;
 
 import org.testng.annotations.Test;
+import ru.lesson.data.TestDataForFirstTest;
 import ru.lesson.pages.PurchasePage;
 import ru.lesson.pages.ReservedPage;
 import ru.lesson.pages.ResultOfSelectionOfItemsPage;
 import ru.lesson.pages.WelcomePage;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -21,7 +28,10 @@ public class FirstTest extends BaseTest {
     int columnArrives = 4;
 
     @Test
-    public void test1(){
+    public void test1() throws ParseException {
+
+        //Класс с тестовыми данными
+        TestDataForFirstTest testDataForFirstTest = new TestDataForFirstTest();
 
         WelcomePage welcomePage = new WelcomePage(driver);
         welcomePage.setFromPort(textFromPort);
@@ -40,48 +50,63 @@ public class FirstTest extends BaseTest {
         assertEquals(numberFlight.trim(),numberFlightP.trim());
         assertEquals(cleanPrice.trim(),priceP.trim());
         assertEquals(Double.parseDouble(totalCost),totalPrice);
-        //ЗАПОЛНИТЬ ЛЮБЫМИ ДАННЫМИ ПОЛЯ
-        //fixme: Вынести в propeties
-        reservedPage.inputTextIntoInput("Ivanov Ivan",
-                "Sennaya Square 13-13",
-                "Saint-Petersburg",
-                "Russia","851127",
-                "amex",
-                //fixme:это значение нужно еще раз, для сравнения
-                "5469 5478 5500 2631",
-                "11",
-                "2017",
-                "Ivanov Ivan");
-
-        //fixme:потом убрать - это одна из переменных, которую нужно вынести в property
-        String tempCardNumber = "5469 5478 5500 2631";
-        String tempCreditCardMonth = "11";
-        String tempCreditCardYear = "2017";
-
+        //ЗАПОЛНИТЬ ЛЮБЫМИ ДАННЫМИ ПОЛЯ - БЕРУТСЯ ИЗ КЛАССА TestDataForFirstTest
+        reservedPage.inputTextIntoInput(testDataForFirstTest.getName(),
+                testDataForFirstTest.getAddress(),
+                testDataForFirstTest.getCity(),
+                testDataForFirstTest.getState(),
+                testDataForFirstTest.getZipCode(),
+                testDataForFirstTest.getCreditCardType(),
+                testDataForFirstTest.getCreditCardNumber(),
+                testDataForFirstTest.getCreditCardMonth(),
+                testDataForFirstTest.getCreditCardYear(),
+                testDataForFirstTest.getNameOnCard());
 
         PurchasePage purchasePage = reservedPage.submitpPurchaseFlightButton();
         purchasePage.showResultTable();
 
         //ПРОВЕРКА ДАННЫХ
-        //Налчие Id
+        //Наличие Id
         assertTrue(purchasePage.getIdLabel().getText().length() > 0);
         //Наличие Status
         //fixme:Посмотреть что-то c ExpectedConditions
         assertTrue(purchasePage.getStatusLabel().isDisplayed());
-        //USD?
-        System.out.println(purchasePage.getAmountLabel().getText());
+        //check USD
         assertEquals("USD",purchasePage.getAmountLabel().getText().trim());
         //check Card Number
-        assertEquals(tempCardNumber.trim().substring(15,19),purchasePage.getCardNumber().getText().trim().substring(12,16));
+        assertEquals(testDataForFirstTest.getCreditCardNumber().substring(testDataForFirstTest.getCreditCardNumber().length() - 4)
+                ,purchasePage.getCardNumber().getText().substring(purchasePage.getCardNumber().getText().length() -4)
+        );
         //check Expiration: Month
-        assertEquals(tempCreditCardMonth.trim(),purchasePage.getExpiration().getText().substring(0,2));
+        //assertEquals(testDataForFirstTest.getCreditCardMonth().trim(),purchasePage.getExpiration().getText().substring(0,2));
+        assertEquals(testDataForFirstTest.getCreditCardMonth().trim(),
+                purchasePage.getExpiration().getText().substring(purchasePage.getExpiration().getText().length()
+                        -purchasePage.getExpiration().getText().length(),purchasePage.getExpiration().getText().length()-6).trim()
+        );
         //check Expiration: Year
         //fixme:Дата не генерится - это БАГ?
-        assertEquals(tempCreditCardYear.trim(),purchasePage.getExpiration().getText().substring(4,8));
+        //assertEquals(testDataForFirstTest.getCreditCardYear().trim(),purchasePage.getExpiration().getText().substring(4,8));
+        assertEquals(testDataForFirstTest.getCreditCardYear().trim(),purchasePage.getExpiration().getText().substring(purchasePage.getExpiration().getText().length()-4).trim());
         //check AuthCode
         assertTrue(purchasePage.getAuthCode().isDisplayed());
         //check Date
         //fixme: Тест упадет,т.к дата на последней странице сгенерирована раз и не меняется - это БАГ?
+        //////System.out.println("currentDate: " + purchasePage.getCurrentDate().getText());
+        //Для сравнения текущего системного времени с датой генерации страницы
+        // Устанавливаем часовой пояс, соответствующий временному поясу, в котором генерируется страница,
+        // для получения аналогичного времени
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+        // Устанавливаем локаль, соответствующую дате, на странице с бронью
+        Locale.setDefault(new Locale("en", "US"));
+        // Устанавливаем формат даты, для парсинга строки с датой на странице брони
+        SimpleDateFormat formatter = new SimpleDateFormat(" EEE, d MMM yyyy HH:mm:ss Z");
+        //Не работает
+        //SimpleDateFormat formatter = new SimpleDateFormat(" EEE, d MMM yyyy HH:mm:ss Z",Locale.ENGLISH);
+        Date dateSystem = new Date();
+        //Используя заданный формат, меняем дату со страницы
+        Date orderDate =  formatter.parse(purchasePage.getCurrentDate().getText());
+        //Сравнение даты генерируемой системой  и даты, которая отображается на странице
+        assertEquals(orderDate,dateSystem);
 
     }
 }
