@@ -93,30 +93,11 @@ public class FirstTest extends BaseTest {
         assertTrue(purchasePage.getAuthCode().isDisplayed());
 
         //check Date
-        //fixme: Тест упадет,т.к дата на последней странице сгенерирована раз и не меняется - это БАГ?
-        //////System.out.println("currentDate: " + purchasePage.getCurrentDate().getText());
-
-        //Для сравнения текущего системного времени с датой генерации страницы
-        // Устанавливаем часовой пояс, соответствующий временному поясу, в котором генерируется страница,
-        // для получения аналогичного времени
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-
-        // Устанавливаем локаль, соответствующую дате, на странице с бронью
-        Locale.setDefault(new Locale("en", "US"));
-        // Устанавливаем формат даты, для парсинга строки с датой на странице брони
-        SimpleDateFormat formatter = new SimpleDateFormat(" EEE, d MMM yyyy HH:mm:ss Z");
-        //Не работает
-        //SimpleDateFormat formatter = new SimpleDateFormat(" EEE, d MMM yyyy HH:mm:ss Z",Locale.ENGLISH);
-        Date dateSystem = new Date();
-        System.out.println("Current Date: " + dateSystem);
-        System.out.println("Date from PurshagePage: " + purchasePage.getCurrentDate().getText());
-
-        //Используя заданный формат, меняем дату со страницы
-        //fixme:Падает на следующей строке
-        ///Date orderDate =  formatter.parse(purchasePage.getCurrentDate().getText());
-
         //Сравнение даты генерируемой системой  и даты, которая отображается на странице
-        ///assertEquals(orderDate,dateSystem);
-
+        SimpleDateFormat formatter2 = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z");
+        long pageTime= formatter2.parse(purchasePage.getCurrentDate().getText()).getTime();
+        //System.out.println(pageTime);
+        //System.out.println(reservedPage.getDateSystem().getTime());
+        assertTrue((reservedPage.getDateSystem().getTime() - pageTime)< 10000 );
     }
 }

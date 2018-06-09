@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.Date;
+
 public class ReservedPage extends AbstractPage {
 
     @FindBy(xpath = "//*[@class='container']/following::p[position()='2']")
@@ -57,6 +59,13 @@ public class ReservedPage extends AbstractPage {
     //@FindBy(xpath = "//*[@class = 'controls']/following::input")
     @FindBy(css = "input.btn")
     private WebElement purchaseFlightButton;
+
+    //Текущая дата, нужна для сравнения с датой на странице PurchasePage
+    Date dateSystem;
+
+    public Date getDateSystem() {
+        return dateSystem;
+    }
 
     public WebElement getPurchaseFlightButton() {
         return purchaseFlightButton;
@@ -148,6 +157,7 @@ public class ReservedPage extends AbstractPage {
     }
 
     public PurchasePage submitpPurchaseFlightButton(){
+        this.dateSystem = new Date();
         getPurchaseFlightButton().click();
         return new PurchasePage(driver);
     }
