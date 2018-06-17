@@ -10,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 public abstract class AbstractPage {
     protected WebDriver driver;
 
-
     /**
      * Дефолтный конструктор. Получаем драйвер для взаимодействия с ним,
      * а так же инициализируем элементы на Page'ах, которые были заданы с помощью аннотаций @FindBy

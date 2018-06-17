@@ -7,11 +7,11 @@ import ru.lesson.yandex.pages.search.YandexSearchPage;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class YandexTest {
+public class YandexTest extends BaseTest{
     @Test
     public void test(){
         YandexSearchPage yandexSearchPage = new YandexSearchPage();
-        yandexSearchPage.load();
+        //yandexSearchPage.load();
         PassportPage passportPage = yandexSearchPage.clickOnEmailBlockEmailButton();
         passportPage.inputToContentBlockLogin("red@mail.ru");
         String signNameBackgroundColor = passportPage.getSignInBacgroundColor();
