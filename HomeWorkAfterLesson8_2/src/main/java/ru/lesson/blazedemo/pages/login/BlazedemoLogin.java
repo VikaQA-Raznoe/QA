@@ -17,7 +17,7 @@ public class BlazedemoLogin extends AbstractPage{
         //Наводим мышку на кнопку "Login" и смотрим свойства кнопки
         //loginBlock.mouseUpPropertiesButton2();
 
-        //Разделение: 
+        //Разделение:
         //Наводим мышку на кнопку
         loginBlock.mouseUpButton();
         //Смотрим(проверяем) размер кнопки до наведения мыши и после

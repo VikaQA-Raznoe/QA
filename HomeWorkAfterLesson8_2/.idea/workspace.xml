@@ -48,8 +48,8 @@
       <file leaf-file-name="LoginBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="150" column="88" lean-forward="false" selection-start-line="150" selection-start-column="88" selection-end-line="150" selection-end-column="88" />
+            <state relative-caret-position="340">
+              <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
@@ -65,25 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginBlock2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlazedemoLogin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlazedemoLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlazedemoLoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlazedemoLoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java" />
       </list>
     </option>
   </component>
@@ -464,9 +450,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BlazedemoLoginTest - 2018.06.19 at 21h 22m 44s.xml">
-      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BlazedemoLoginTest - 2018.06.19 at 23h 51m 01s.xml">
       <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
     </history-entry>
@@ -492,6 +475,9 @@
       <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="BlazedemoLoginTest - 2018.06.20 at 18h 54m 55s.xml">
+      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BlazedemoLoginTest - 2018.06.20 at 19h 08m 04s.xml">
       <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -776,32 +762,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="150" column="88" lean-forward="false" selection-start-line="150" selection-start-column="88" selection-end-line="150" selection-end-column="88" />
+        <state relative-caret-position="340">
+          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
@@ -816,10 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -119,6 +119,7 @@ public class LoginBlock implements IComponent {
         actions.moveToElement(loginButton).build().perform();
     }
 
+    //Проверка высоты кнопки "Login"
     public void mouseUpHeightButton(){
         WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
         //Свойства элемента(кнопки) до наведения мыши:
@@ -132,6 +133,7 @@ public class LoginBlock implements IComponent {
     }
 
 
+    //Проверка ширины кнопки "Login"
     public void mouseUpWidthButton(){
         WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
         //Свойства элемента(кнопки) до наведения мыши:
@@ -143,6 +145,7 @@ public class LoginBlock implements IComponent {
         assertEquals(widthButtonBefore,widthButtonAfter);
     }
 
+    //Проверка цвета кнопки "Login"
     public void mouseUpColorButton(){
         WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
         Actions actions = new Actions(DriverManager.getDriver());
