@@ -8,6 +8,6 @@ public class BlazedemoLoginTest extends BaseTest{
     @Test
     public void test(){
         BlazedemoLogin blazedemoLogin = new BlazedemoLogin();
-        blazedemoLogin.enterLoginPage();
+        blazedemoLogin.mouseUpLoginButton();
     }
 }

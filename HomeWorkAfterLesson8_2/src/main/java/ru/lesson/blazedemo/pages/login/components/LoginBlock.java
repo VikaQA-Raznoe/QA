@@ -110,4 +110,44 @@ public class LoginBlock implements IComponent {
         assertEquals(heightButtonAfter,heightButtonBefore);
         assertEquals(widthButtonAfter,widthButtonBefore);
     }
+
+    //Разделили метод
+    //Метод наведения мышки на кнопку
+    public void mouseUpButton(){
+        WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
+        Actions actions = new Actions(DriverManager.getDriver());
+        actions.moveToElement(loginButton).build().perform();
+    }
+
+    public void mouseUpHeightButton(){
+        WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
+        //Свойства элемента(кнопки) до наведения мыши:
+        int heightButtonBefore = loginButton.getSize().getHeight();
+        Actions actions = new Actions(DriverManager.getDriver());
+        actions.moveToElement(loginButton).build().perform();
+        //Свойства элемента(кнопки) после наведения мыши:
+        int heightButtonAfter = loginButton.getSize().getHeight();
+        assertEquals(heightButtonBefore,heightButtonAfter);
+
+    }
+
+
+    public void mouseUpWidthButton(){
+        WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
+        //Свойства элемента(кнопки) до наведения мыши:
+        int widthButtonBefore = loginButton.getSize().getWidth();
+        Actions actions = new Actions(DriverManager.getDriver());
+        actions.moveToElement(loginButton).build().perform();
+        //Свойства элемента(кнопки) после наведения мыши:
+        int widthButtonAfter = loginButton.getSize().getWidth();
+        assertEquals(widthButtonBefore,widthButtonAfter);
+    }
+
+    public void mouseUpColorButton(){
+        WebElement loginButton = DriverManager.getDriver().findElement(LOGIN_BUTTON);
+        Actions actions = new Actions(DriverManager.getDriver());
+        actions.moveToElement(loginButton).build().perform();
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), 10);
+        assertEquals(loginButton.getCssValue("background-color"),"rgba(37, 121, 169, 1)");
+    }
 }

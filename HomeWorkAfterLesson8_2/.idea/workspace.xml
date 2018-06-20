@@ -16,8 +16,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="187">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,13 +48,32 @@
       <file leaf-file-name="LoginBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="150" column="88" lean-forward="false" selection-start-line="150" selection-start-column="88" selection-end-line="150" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="method#clickOnLoginButton#0;class#LoginBlock#0" expanded="false" />
+                <element signature="method#clickOnLoginButton2#0;class#LoginBlock#0" expanded="false" />
+                <element signature="method#clickOnLoginButton3#0;class#LoginBlock#0" expanded="false" />
+                <element signature="method#mouseUpSizeButton2#0;class#LoginBlock#0" expanded="false" />
                 <element signature="method#getButtonBackgroundColor#0;class#LoginBlock#0" expanded="false" />
-                <element signature="method#getButtonHeight#0;class#LoginBlock#0" expanded="false" />
                 <element signature="method#getButtonWidth#0;class#LoginBlock#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginBlock2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,8 +82,8 @@
       <file leaf-file-name="BlazedemoLogin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +94,7 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +118,8 @@
       <file leaf-file-name="IComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/components/IComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/components/IComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java" />
       </list>
@@ -290,10 +310,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,12 +464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BlazedemoLoginTest - 2018.06.19 at 02h 09m 09s.xml">
-      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BlazedemoLoginTest - 2018.06.19 at 21h 02m 10s.xml">
-      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BlazedemoLoginTest - 2018.06.19 at 21h 22m 44s.xml">
       <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
     </history-entry>
@@ -474,6 +488,12 @@
     <history-entry file="BlazedemoLoginTest - 2018.06.20 at 03h 04m 41s.xml">
       <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BlazedemoLoginTest - 2018.06.20 at 18h 42m 35s.xml">
+      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BlazedemoLoginTest - 2018.06.20 at 18h 54m 55s.xml">
+      <configuration name="BlazedemoLoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -487,18 +507,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25611246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -511,10 +531,104 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="method#clickOnLoginButton#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton2#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton3#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#mouseUpSizeButton2#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#getButtonBackgroundColor#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#getButtonWidth#0;class#LoginBlock#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/components/IComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/utills/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -595,18 +709,15 @@
           <caret line="55" column="61" lean-forward="false" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="method#clickOnLoginButton#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton2#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton3#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#mouseUpSizeButton2#0;class#LoginBlock#0" expanded="false" />
             <element signature="method#getButtonBackgroundColor#0;class#LoginBlock#0" expanded="false" />
-            <element signature="method#getButtonHeight#0;class#LoginBlock#0" expanded="false" />
             <element signature="method#getButtonWidth#0;class#LoginBlock#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,17 +740,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/ru/lesson/blazedemo/pages/login/components/LoginBlock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/components/IComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="187">
           <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -649,32 +752,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/components/IComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/BlazedemoLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/components/LoginBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="150" column="88" lean-forward="false" selection-start-line="150" selection-start-column="88" selection-end-line="150" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="method#clickOnLoginButton#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton2#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#clickOnLoginButton3#0;class#LoginBlock#0" expanded="false" />
+            <element signature="method#mouseUpSizeButton2#0;class#LoginBlock#0" expanded="false" />
             <element signature="method#getButtonBackgroundColor#0;class#LoginBlock#0" expanded="false" />
-            <element signature="method#getButtonHeight#0;class#LoginBlock#0" expanded="false" />
             <element signature="method#getButtonWidth#0;class#LoginBlock#0" expanded="false" />
           </folding>
         </state>
@@ -682,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/blazedemo/pages/login/BlazedemoLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
