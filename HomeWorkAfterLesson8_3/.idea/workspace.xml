@@ -34,21 +34,21 @@
         </entry>
       </file>
       <file leaf-file-name="TopMenuBlock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/components/TopMenuBlock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/main/components/TopMenuBlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/main/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
@@ -62,8 +62,8 @@
       <file leaf-file-name="AutomationpracticeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/AutomationpracticeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,9 +102,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/components/IComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/lesson/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/lesson/AutomationpracticeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/components/TopMenuBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/lesson/AutomationpracticeTest.java" />
       </list>
     </option>
   </component>
@@ -191,7 +191,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson" type="462c0819:PsiDirectoryNode" />
               <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeWorkAfterLesson8_3" type="b2602c69:ProjectViewProjectNode" />
@@ -201,7 +201,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson" type="462c0819:PsiDirectoryNode" />
               <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,9 +404,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutomationpracticeTest - 2018.06.20 at 17h 07m 57s.xml">
-      <configuration name="AutomationpracticeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AutomationpracticeTest - 2018.06.20 at 17h 09m 24s.xml">
       <configuration name="AutomationpracticeTest" configurationId="TestNG" />
     </history-entry>
@@ -432,6 +429,9 @@
       <configuration name="AutomationpracticeTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="AutomationpracticeTest - 2018.06.21 at 00h 27m 32s.xml">
+      <configuration name="AutomationpracticeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutomationpracticeTest - 2018.06.21 at 00h 32m 03s.xml">
       <configuration name="AutomationpracticeTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -507,19 +507,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/components/TopMenuBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/main/components/TopMenuBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/login/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/lesson/automationpractice/pages/main/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/lesson/AutomationpracticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

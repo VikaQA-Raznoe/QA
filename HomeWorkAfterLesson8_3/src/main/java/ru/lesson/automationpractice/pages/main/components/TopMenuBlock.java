@@ -1,4 +1,4 @@
-package ru.lesson.automationpractice.pages.login.components;
+package ru.lesson.automationpractice.pages.main.components;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
