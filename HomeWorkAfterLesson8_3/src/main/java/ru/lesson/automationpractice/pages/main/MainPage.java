@@ -11,6 +11,7 @@ public class MainPage extends AbstractPage {
         topMenuBlock.mouseUpButton();
         topMenuBlock.mouseUpHeightButton();
         topMenuBlock.mouseUpWidthButton();
-        topMenuBlock.mouseUpColorButton();
+        //topMenuBlock.mouseUpColorButton();
+        topMenuBlock.mouseUpColorButton2();
     }
 }

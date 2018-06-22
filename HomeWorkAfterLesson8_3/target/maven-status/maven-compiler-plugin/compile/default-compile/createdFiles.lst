@@ -1,0 +1,6 @@
+ru\lesson\DriverManager.class
+ru\lesson\automationpractice\pages\main\MainPage.class
+ru\lesson\AbstractPage.class
+ru\lesson\automationpractice\pages\main\components\TopMenuBlock.class
+ru\lesson\automationpractice\components\IComponent.class
+ru\lesson\utills\PropertyReader.class
