@@ -35,6 +35,7 @@ public class BaseTest {
 
         //driver.get("http://blazedemo.com/");
         //driver.get("https://jqueryui.com/tooltip");
+        //Возвращает два экзмепляра класса
         driver.get("http://ybndex.ru");
         return driver;
     }
