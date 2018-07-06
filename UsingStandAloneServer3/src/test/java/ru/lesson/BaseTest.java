@@ -2,7 +2,7 @@ package ru.lesson;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
-import ru.lesson.utills.WebDriverManager;
+import ru.lesson.utills.Drivers;
 
 public class BaseTest {
 
@@ -10,7 +10,7 @@ public class BaseTest {
 
     @BeforeClass
     public void tearUp(){
-        driver = WebDriverManager.getDriver();
+        driver = Drivers.getDriver();
         driver.get("https://yandex.ru");
     }
 }
